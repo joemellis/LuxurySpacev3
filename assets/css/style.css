@@ -14,28 +14,33 @@
 /* ------------------------main-------------------------- */
 
 main{
+    flex: 1 0 auto;
     width: 100%;
     min-height: auto;
-   position: relative;
 }
 .carousel{
-    display: absolute;
     align-content: center;
     justify-content: center;
-    height: 200px;
+    height: 400px;
     width: 80%;
     padding-top: 5px;
     margin: 0 auto;
     background-position: center;
-   
-}
- .carousel  .carousel-item {
     background-size: cover center;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
+   
+}
+ 
+#description{
+    background-color: rgb(84, 187, 221);
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px auto;
     
- } 
+    z-index: 5;
+}
 
 
 /*Footer */
