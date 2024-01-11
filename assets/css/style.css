@@ -1,3 +1,33 @@
+/* -------------general styling--------------- */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------navbar----------------------- */
+
+#navbar{
+    padding-left: 0;
+    margin-top: 0;
+}
+
+/* ------------------------main-------------------------- */
+
+main{
+    width: 100%;
+   
+}
+.carousel{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+    width: 80%;
+    padding-top: 0;
+
+}
+
+
 /*Footer */
 
 footer {
