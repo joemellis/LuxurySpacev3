@@ -3,15 +3,16 @@
 footer {
     margin-bottom:0;
     bottom:0;
-    position: fixed;
+    position: relative;
     background-color: black;
     width:100%;
+    display: block;
 }
 
-/* Hero section */
+/* Hero section
 .heroimage{
     height:100vh;
-    background-size: cover; /*makes image cover and not repeat*/
+    background-size: cover; /*makes image cover and not repeat
 
 }
 
@@ -24,4 +25,160 @@ footer {
 .herocontainertext{
     margin-top:50%;
     background-color: rgba(0, 0, 0, 0.562);
+}*/
+
+
+/*--------------------- General-----*/
+
+main{
+    display:block;
+    background-color:black;
+}
+
+section{
+    overflow: hidden;
+    padding-top:50px;
+
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.img-fluid{
+    max-width:100%;
+    height: 100%;
+}
+
+/*--------------------- About -----*/
+
+.about{
+    padding-top:200px;
+}
+
+.abouttitle{
+    padding-bottom:20px;
+}
+
+.aboutcontainer img{
+    max-width:750px;
+    text-align: center;
+}
+
+.aboutcontainer{
+    background-color:black;
+}
+
+.aboutcontainer h1{
+    color:rgb(125, 218, 255);
+}
+
+.aboutcontainer p, li{
+    color:white;
+    font-size: large;
+}
+
+#about1{
+    padding-left:50px;
+    padding-right:50px;
+
+}
+
+#about1 h2 {
+    padding-bottom:2rem;
+
+}
+
+#about1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding-bottom:2rem;
+}
+
+#about2{
+    justify-content: center;
+}
+
+/*----------------------Destination Links---*/
+.indexdestionations{
+    padding-top:200px;
+}
+
+.indexdestinationstitle h1{
+    text-align:center;
+    color:white;
+
+}
+
+.indexdestinationstitle{
+    padding-bottom:50px;
+
+}
+
+.destlink{
+    min-height: 250px;
+    text-align: center;
+    margin: 10px 50px;
+}
+
+#dest1link{
+    background-image: url(../images/p11.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+#dest2link{
+    background-image: url(../images/p3.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+#dest3link{
+    background-image: url(../images/p4.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+#dest4link{
+    background-image: url(../images/p7.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.destlink button{
+   margin-top:100px;
+   font-size:larger;
+}
+
+
+/*----------------------Hero Styling---*/
+#hero {
+    height:100vh;
+    width: 100%;
+    background: url(../images/hero.png) top center;
+    background-size:cover;
+    position: relative;
+}
+
+#hero h1, h2{
+    color: white;
+}
+
+.herocontainer{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right:0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    /* background-color:rgba(24, 24, 24, 0.363);*/
 }
