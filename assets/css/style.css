@@ -8,9 +8,10 @@ footer {
     width:100%;
 }
 
+/* Hero section */
 .heroimage{
     height:100vh;
-    background-size: cover;
+    background-size: cover; /*makes image cover and not repeat*/
 
 }
 
@@ -20,6 +21,7 @@ footer {
     height:100vh;
 }
 
-.heroplanets{
-    background-color:black;
+.herocontainertext{
+    margin-top:50%;
+    background-color: rgba(0, 0, 0, 0.562);
 }
