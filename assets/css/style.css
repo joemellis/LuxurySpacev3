@@ -7,3 +7,19 @@ footer {
     background-color: black;
     width:100%;
 }
+
+.heroimage{
+    height:100vh;
+    background-size: cover;
+
+}
+
+.heroblurb{
+    background-color:black;
+    color: white;
+    height:100vh;
+}
+
+.heroplanets{
+    background-color:black;
+}
