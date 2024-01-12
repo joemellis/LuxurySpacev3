@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!--Custom Stylesheet link (Style.css)-->
   <link rel="stylesheet" href="assets/css/style.css" />
-  <script src="https://kit.fontawesome.com/51b9bf2f41.js" crossorigin="anonymous"></script>
-  <title>Destination1</title>
+
+  <title>Luxury Space Index Page</title>
 </head>
 
 <body>
@@ -49,49 +51,153 @@
     </div>
   </header>
   <main>
-    <section class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull heroimage" style="background-image: url('hero.png')">
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
-            <div class="herocontainertext">
-              <h1 class="display-3 fw-bold mb-3">Luxury Space</h1>
-              <p class="lead mb-5">
-                "Elevate Your Travels: Unravel Dimensions, Create Your Story!"
-              </p>
-            </div>
-            </div>
-          </div>
+    <!-- Hero Section-->
+    <section id="hero">
+      <div class="herocontainer">
+        <h1>Welcome to Luxury Space</h1>
+        <h2>"Elevate Your Travels: Unravel Dimensions, Create Your Story!"</h2>
+        <div class="input-group mb-3 herocall">
+          <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Let's start!</button>
         </div>
       </div>
     </section>
-  </main>
-  <footer>
-    <div class="row">
-      <section class="mb-4 text-center">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-            class="fa-brands fa-facebook"></i></a>
+    <!-- End of Hero Section-->
 
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+    <!--About Us Section-->
+    <main id="main">
+      <section id="aboutus" class="about">
+        <div class="aboutcontainer">
+          <!--<div class="abouttitle">
+          </div> -->
+          <div class="row content">
+            <div class="col-md-6 col-sm-12 text-center" id="about1">
+              <h1>About Us</h1>
 
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+              <!-- HR line below About Us Title-->
+              <hr class="border-bottom border-3 border-white">
 
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-            class="fa-brands fa-instagram"></i></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+              <h2>Welcome to Luxury Space, where boundless horizons and limitless possibilities converge.</h2>
+              <ul>
+                <li><i class="fa-solid fa-earth-europe"></i><br>
+                  We strive to push the boundaries of travel by pioneering interdimensional journeys that unlock the
+                  mysteries of
+                  alternate realms. Through cutting-edge technology and visionary exploration, we aim to create pathways
+                  to dimensions
+                  yet uncharted.
+                </li>
+              </ul>
+              <ul>
+                <li><i class="fa-solid fa-earth-europe"></i><br>
+                  Elevating the travel experience to unprecedented heights, we redefine luxury in the interdimensional
+                  realm. Immerse yourself in the lap of extravagance with our state-of-the-art spacecraft, indulgent
+                  accommodations, and personalized services that cater to your every whim, ensuring a journey that
+                  transcends the ordinary.
+                </li>
+              </ul>
+              <ul>
+                <li><i class="fa-solid fa-earth-europe"></i><br>
+                  As we venture into uncharted dimensions, we remain steadfast in our commitment to responsible and
+                  sustainable exploration. We strive to minimize our environmental footprint, preserve the integrity of
+                  the dimensions we traverse, and contribute positively to the welfare of the cosmic communities we
+                  encounter.
+                </li>
+              </ul>
+            </div>
+            <!--Responsive Image that changes display type based on screen size-->
+            <div class="col-6 text-center d-sm-none d-md-block d-xlg-flex" id="about2">
+              <img src="assets/images/h1.png" class="img-fluid" alt="picture of man standing infront of a portal">
+            </div>
+          </div>
+        </div>
       </section>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+      <!--End of About Us Section-->
+      
+      <!-- Destinations Link Section-->
+      <section id="indexdestinations" class="indexdestionations">
+        <div class="indexdestinationscontainer">
+          <div class="indexdestinationstitle">
+            <h1> Our Destinations </h1>
+          </div>
+          <!--Design 1: Destinations are next to eachother-->
+          <!--<div class="row">
+            <div class="col 12 destlink" id="dest1link">
+              <button type="button" class="btn btn-dark">Icy Chuckles</button>  
+            </div>
+
+            <div class="col 12 destlink" id="dest2link">
+              <button type="button" class="btn btn-dark">Mirthful Magma Madness</button>  
+            </div>
+
+            <div class="col 12 destlink" id="dest3link">
+              <button type="button" class="btn btn-dark">Endless Sandscape</button>  
+            </div>
+
+            <div class="col 12 destlink" id="dest4link">
+              <button type="button" class="btn btn-dark">Verdant Haven</button>  
+            </div>
+          </div>-->
+
+          <!--Design 2: Destinations are full width backgrounds on top of one another-->
+          <div class="row">
+            <div class="col 12 destlink" id="dest1link">
+              <button type="button" class="btn btn-dark">Icy Chuckles</button> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col 12 destlink" id="dest2link">
+              <button type="button" class="btn btn-dark">Mirthful Magma Madness</button> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col 12 destlink" id="dest3link">
+              <button type="button" class="btn btn-dark">Endless Sandscape</button> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col 12 destlink" id="dest4link">
+              <button type="button" class="btn btn-dark">Verdant Haven</button> 
+            </div>
+          </div>
+        </div> 
+      </section>
+      <!-- End of Destinations Links Section-->
+    </main>
+
+    <footer>
+      <div class="row">
+        <section class="mb-4 text-center">
+          <!-- Facebook link -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fa-brands fa-facebook"></i></a>
+
+          <!-- Twitter link -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google link -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram link -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fa-brands fa-instagram"></i></a>
+
+          <!-- Linkedin link -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+              class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github link -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        </section>
+      </div>
+    </footer>
+
+    <!--Bootstrap Javascript Dependancies-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <!--Font Awesome JS dependancies-->
+    <script src="https://kit.fontawesome.com/51b9bf2f41.js" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
