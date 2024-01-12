@@ -62,8 +62,8 @@ User Stories
 ## Screenshots of Final Project
 ![Local Image](assets/images/ResponsiveIcyplanet.png)
 ![Local Image](assets/images/ourdestination.png)
-![Local Image](assets/images/Iceyplanet3.png)
-![Local Image](assets/images/Iceyplanet2.png)
+![Local Image](assets/images/Icyplanet3.png)
+![Local Image](assets/images/Icyplanet2.png)
 ![Local Image](assets/images/Icyplanet.png)
 ![Local Image](assets/images/aboutus.png)
 ![Local Image](assets/images/homepage.png)
