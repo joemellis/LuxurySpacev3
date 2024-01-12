@@ -7,8 +7,58 @@
 
 ## Team Members
 
-- [Joe Mellis] (GitHub_Profile_Link) - Role
-- [Priyanka](GitHub_Profile_Link) - Role
-- [Team Member 3](GitHub_Profile_Link) - Role
+- [Joe Mellis] - Role
+- [Priyanka ] - Role
+- [CianThornhill] - Role
+
+## Technologies Used
+- Github
+- Gitpod
+- Visual Studio Code
+- Bootstrap
+- Chat GPT: https://chat.openai.com
+- Midjourney AI https://www.midjourney.com 
+
+## Website Structure
+### Pages
+- Index
+- Destinations: Destination 1, Destination 2, Destination 3, Destination 4
+
+## Ideation
+
+### Collaborative Ideation Doc
+https://docs.google.com/document/d/1I16nMBnwyo8vOtNZJg-03Dy7k6aS3mEOLERZoZLBS8M/edit?usp=sharing
+
+### User Stories
+User Stories
+- As a user I want to be able to know what destinations that are available to me.
+- As a user I want to know what packages are available so that I can know what’s involved.
+- As a user I want to see feedback and reviews.
+- As a user I want to see the value in traveling with Luxury Space.
+- As a user  I want detailed information about each interdimensional destination, including any potential risks or challenges, to ensure a secure and enjoyable trip.
+- As a customer, I want to know what I can see and experience on my trip.
+
+### HomePage Taglines & Calls to Action
+
+- "Elevate Your Travels: Unravel Dimensions, Create Your Story!"
+- "Yearning for Adventure? Embrace Infinite Realities Today!"
+- "Adventure Awaits: Dive into Dimensions Beyond Your Wildest Dreams!"
+
+
+
+## Future Improvements
+- CSS styling would be improved: Responsiveness, Colour Scheming, Layout, Reactive responses
+- 
+
+## Acknowledgments
+
+### References
+Trip Advisor: https://www.tripadvisor.ie/
+Mockplus Example Websites: https://www.mockplus.com/blog/post/travel-website-templates
+w3Schools Bootstrap: https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
+Bootstrap Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+
+
 
 
