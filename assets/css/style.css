@@ -182,3 +182,11 @@ section{
     text-align:center;
     /* background-color:rgba(24, 24, 24, 0.363);*/
 }
+
+.herocall{
+    width:25%;
+}
+
+.herocall button {
+    color:aqua;
+}
