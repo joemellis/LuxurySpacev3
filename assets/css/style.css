@@ -45,12 +45,13 @@ main{
 
  
 #description{
-    background-color: rgb(84, 187, 221);
+    background-color: #000;
+    color: #fff;
     width: 100%;
     padding: 10px 10px;
     margin: 20px 20px;
     min-height: 100px;
-    z-index: 5;
+  
 }
 
 .suggestion{
