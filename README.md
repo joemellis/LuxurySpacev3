@@ -7,9 +7,10 @@
 
 ## Team Members
 
-- [Joe Mellis] - Role
-- [Priyanka ] - Role
-- [CianThornhill] - Role
+- [Joe] - Team Lead
+- [Priyanka] - Developer
+- [Cian] - Developer
+- [Ossama] - Developer
 
 ## Technologies Used
 - Github
@@ -23,6 +24,11 @@
 ### Pages
 - Index
 - Destinations: Destination 1, Destination 2, Destination 3, Destination 4
+
+### Architecture 
+- Consitent navbar and footer
+- index.html landing page which includes a hero image, call to action and an about me page, and links to the 4 destination pages
+- 4 destination pages each include a desccriptive carousel, followed by a description of the destination, small image gallery of popular attractions, as well as user reviews.
 
 ## Ideation
 
@@ -45,10 +51,24 @@ User Stories
 - "Adventure Awaits: Dive into Dimensions Beyond Your Wildest Dreams!"
 
 
-
-## Future Improvements
+### Future Improvements
 - CSS styling would be improved: Responsiveness, Colour Scheming, Layout, Reactive responses
-- 
+- Further and more clear call to actions
+- More Destinations and each planet has 4 destinations. 
+-- An additional landing page for each of the 4 destinations further highliting activities and facilities for the destinations.
+- More general interactivty could be implemented
+- Agile workflow - Implementation and delegation of tasks better tracked.
+
+## Screenshots of Final Project
+![Local Image](ResponsiveIcyplanet.png)
+![Local Image](ourdestination.png)
+![Local Image](Iceyplanet3.png)
+![Local Image](Iceyplanet2.png)
+![Local Image](Icyplanet.png)
+![Local Image](aboutus.png)
+![Local Image](homepage.png)
+![Local Image](homepagedestination.png)
+![Local Image](footer.png)
 
 ## Acknowledgments
 
@@ -57,6 +77,13 @@ Trip Advisor: https://www.tripadvisor.ie/
 Mockplus Example Websites: https://www.mockplus.com/blog/post/travel-website-templates
 w3Schools Bootstrap: https://www.w3schools.com/bootstrap/bootstrap_get_started.asp
 Bootstrap Documentation: https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+### Shoutouts
+- Coffee & Tea without their contributions nothing would have been finished.
+- Staff at Mckesson for hosting the event and their presentations.
+- Thanks to Martin too.
+
+
 
 
 
