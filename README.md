@@ -60,15 +60,15 @@ User Stories
 - Agile workflow - Implementation and delegation of tasks better tracked.
 
 ## Screenshots of Final Project
-![Local Image](ResponsiveIcyplanet.png)
-![Local Image](ourdestination.png)
-![Local Image](Iceyplanet3.png)
-![Local Image](Iceyplanet2.png)
-![Local Image](Icyplanet.png)
-![Local Image](aboutus.png)
-![Local Image](homepage.png)
-![Local Image](homepagedestination.png)
-![Local Image](footer.png)
+![Local Image](assets/images/ResponsiveIcyplanet.png)
+![Local Image](assets/images/ourdestination.png)
+![Local Image](assets/images/Iceyplanet3.png)
+![Local Image](assets/images/Iceyplanet2.png)
+![Local Image](assets/images/Icyplanet.png)
+![Local Image](assets/images/aboutus.png)
+![Local Image](assets/images/homepage.png)
+![Local Image](assets/images/homepagedestination.png)
+![Local Image](assets/images/footer.png)
 
 ## Acknowledgments
 
